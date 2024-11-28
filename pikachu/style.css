@@ -8,8 +8,8 @@
 /* Define as cores para todo o site */
 :root{
     /* Define variaveis no css */
-    --primary-color:#f5cf06;
-    --secondary-color:#8e4106;
+    --primary-color:#3a9dcb;
+    --secondary-color:#d5d2cf;
 }
 body{
     height: 100vh;
@@ -94,7 +94,7 @@ main{
     color: var(--secondary-color);
     font-size: 1rem;
 }
-.pikachu-image{
+.lugia-image{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -141,7 +141,7 @@ main{
         width: 100%;
         font-size: 7vw;
     }
-    .pikachu-image{
+    .lugia-image{
         width: 90vw;
     }
 }
