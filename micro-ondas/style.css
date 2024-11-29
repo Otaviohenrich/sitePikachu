@@ -8,8 +8,8 @@
 /* Define as cores para todo o site */
 :root{
     /* Define variaveis no css */
-    --primary-color:#3a9dcb;
-    --secondary-color:#d5d2cf;
+    --primary-color:#ffffff;
+    --secondary-color:#3b3f42;
 }
 body{
     height: 100vh;
@@ -50,14 +50,14 @@ main{
     align-items: center;
 }
 .title_text{
-    font-size: 20vw;
-    color: #fff;
+    font-size: 12vw;
+    color: #4e5056;
 }
 .title_transparent{
     position: absolute;
-    top:-50%;
-    font-size: 27vw;
-    color: #fff5;
+    top:-30%;
+    font-size: 12vw;
+    color: rgba(125, 129, 134, 0.333);
     z-index: -1;
 }
 .description{
@@ -94,9 +94,9 @@ main{
     color: var(--secondary-color);
     font-size: 1rem;
 }
-.lugia-image{
+.micro-image{
     position: absolute;
-    top: 50%;
+    top: 47%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -141,7 +141,7 @@ main{
         width: 100%;
         font-size: 7vw;
     }
-    .lugia-image{
+    .micro-image{
         width: 90vw;
     }
 }
